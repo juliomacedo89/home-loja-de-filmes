@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800;900&display=swap" rel="stylesheet">
+    <title>Prova DOT</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <header id="header">
+        <div class="header__container">
+            <div class="header__container-left">
+                <img src="movies/logonetflix.jpeg" alt="">
+            </div>
+            <div class="header__container-center">
+                <div class="header__container-search">
+                <input type="text" name="" id="" placeholder="Procure títulos">
+                <a href="">
+                    <svg fill="#000000" width="52" height="52" version="1.1" id="lni_lni-search-alt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                    y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                <path d="M62.1,57L44.6,42.8c3.2-4.2,5-9.3,5-14.7c0-6.5-2.5-12.5-7.1-17.1v0c-9.4-9.4-24.7-9.4-34.2,0C3.8,15.5,1.3,21.6,1.3,28
+                    c0,6.5,2.5,12.5,7.1,17.1c4.7,4.7,10.9,7.1,17.1,7.1c6.1,0,12.1-2.3,16.8-6.8l17.7,14.3c0.3,0.3,0.7,0.4,1.1,0.4
+                    c0.5,0,1-0.2,1.4-0.6C63,58.7,62.9,57.6,62.1,57z M10.8,42.7C6.9,38.8,4.8,33.6,4.8,28s2.1-10.7,6.1-14.6c4-4,9.3-6,14.6-6
+                    c5.3,0,10.6,2,14.6,6c3.9,3.9,6.1,9.1,6.1,14.6S43.9,38.8,40,42.7C32,50.7,18.9,50.7,10.8,42.7z"/>
+                </svg>
+                </a>
+                </div>
+
+            </div>
+            <div class="header__container-right">
+                <img src="movies/like.png" alt="">
+                <img src="movies/shopping-cart.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!--Full banner-->
+    <section class="banner">
+        <div class="banner__container">
+            <div class="banner__container-carousel">
+                <img src="movies/banner.png" alt="">
+                <img src="movies/banner5.png" alt="">
+                <img src="movies/banner6.jpeg" alt="">
+            </div>
+          
+            <div class="banner__container-arrow">
+                    <div id="arrow-prev" class="arrow-prev">
+                        <img src="movies/arrow-left.png" alt="">
+                    <div id="arrow-next" class="arrow-next">
+                        <img src="movies/arrow-right.png" alt="">
+                    </div>
+            </div>  
+        </div>
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
+
+<!--Products vitrine-->
+<section class="products">
+    <div class="products__container">
+        <h2>Movies</h2>
+        <div class="products__container-list">
+            <div class="products__container-movie">
+                <div class="movie-banner">
+                    <img src="movies/movie-venum.png" alt="" class="movie-img">
+                    <img src="movies/favorite-movie.png" alt="" class="favorite">
+                    <p class="date"> 04 de janeiro, 2022</p>
+                </div>
+                <h3>Venom</h3>
+                <div class="movie-info"> 
+                    <div class="classification">
+                        <img src="movies/star-movie.png" alt="">
+                        <p> 7</p>
+                    </div>
+                    <div class="type">
+                        <p> Gênero</p>
+                    </div>
+                </div>
+                <div class="price">
+                        <p>R$ 79,99</p>
+                </div>
+                <input type="submit" value="Adicionar" class="btn">
+            </div>
+            <div class="products__container-movie">
+                <div class="movie-banner">
+                    <img src="movies/movie-transformers.png" alt="" class="movie-img">
+                    <img src="movies/favorite-movie.png" alt="" class="favorite">
+                    <p class="date"> 04 de janeiro, 2022</p>
+                </div>
+                <h3>Transformers </h3>
+                <div class="movie-info"> 
+                    <div class="classification">
+                        <img src="movies/star-movie.png" alt="">
+                        <p> 7</p>
+                    </div>
+                    <div class="type">
+                        <p> Gênero</p>
+                    </div>
+                </div>
+                <div class="price">
+                        <p>R$ 79,99</p>
+                </div>
+                <input type="submit" value="Adicionar">
+            </div>
+            <div class="products__container-movie">
+                <div class="movie-banner">
+                    <img src="movies/movie-salt.png" alt="" class="movie-img">
+                    <img src="movies/favorite-movie.png" alt="" class="favorite">
+                    <p class="date"> 04 de janeiro, 2022</p>
+                </div>
+                <h3>S.A.L.T.</h3>
+                <div class="movie-info"> 
+                    <div class="classification">
+                        <img src="movies/star-movie.png" alt="">
+                        <p> 7</p>
+                    </div>
+                    <div class="type">
+                        <p> Gênero</p>
+                    </div>
+                </div>
+                <div class="price">
+                        <p>R$ 79,99</p>
+                </div>
+                <input type="submit" value="Adicionar">
+            </div>
+            <div class="products__container-movie">
+                <div class="movie-banner">
+                    <img src="movies/movie-crimes.png" alt="" class="movie-img">
+                    <img src="movies/favorite-movie.png" alt="" class="favorite">
+                    <p class="date"> 04 de janeiro, 2022</p>
+                </div>
+                <h3 class="ajust">Crimes na madrugada</h3>
+                <div class="movie-info"> 
+                    <div class="classification">
+                        <img src="movies/star-movie.png" alt="">
+                        <p> 7</p>
+                    </div>
+                    <div class="type">
+                        <p> Gênero</p>
+                    </div>
+                </div>
+                <div class="price">
+                        <p>R$ 79,99</p>
+                </div>
+                <input type="submit" value="Adicionar">
+            </div>
+            <div class="products__container-movie">
+                <div class="movie-banner">
+                    <img src="movies/movie-carga.png" alt="" class="movie-img">
+                    <img src="movies/favorite-movie.png" alt="" class="favorite">
+                    <p class="date"> 04 de janeiro, 2022</p>
+                </div>
+                <h3>Carga Explosiva</h3>
+                <div class="movie-info"> 
+                    <div class="classification">
+                        <img src="movies/star-movie.png" alt="">
+                        <p> 7</p>
+                    </div>
+                    <div class="type">
+                        <p> Gênero</p>
+                    </div>
+                </div>
+                <div class="price">
+                        <p>R$ 79,99</p>
+                </div>
+                <input type="submit" value="Adicionar">
+            </div>
+            
+            <div class="products__container-movie">
+                <div class="movie-banner">
+                    <img src="movies/movie-croods.png" alt="" class="movie-img">
+                    <img src="movies/favorite-movie.png" alt="" class="favorite">
+                    <p class="date"> 04 de janeiro, 2022</p>
+                </div>
+                <h3>Os Croods</h3>
+                <div class="movie-info"> 
+                    <div class="classification">
+                        <img src="movies/star-movie.png" alt="">
+                        <p> 7</p>
+                    </div>
+                    <div class="type">
+                        <p> Gênero</p>
+                    </div>
+                </div>
+                <div class="price">
+                        <p>R$ 79,99</p>
+                </div>
+                <input type="submit" value="Adicionar">
+            </div>
+            <div class="products__container-movie">
+                <div class="movie-banner">
+                    <img src="movies/movie-spider.png" alt="" class="movie-img">
+                    <img src="movies/favorite-movie.png" alt="" class="favorite">
+                    <p class="date"> 04 de janeiro, 2022</p>
+                </div>
+                <h3>Homem Aranha 2</h3>
+                <div class="movie-info"> 
+                    <div class="classification">
+                        <img src="movies/star-movie.png" alt="">
+                        <p> 7</p>
+                    </div>
+                    <div class="type">
+                        <p> Gênero</p>
+                    </div>
+                </div>
+                <div class="price">
+                        <p>R$ 79,99</p>
+                </div>
+                <input type="submit" value="Adicionar">
+            </div>
+            <div class="products__container-movie">
+                <div class="movie-banner">
+                    <img src="movies/movie-lucy.png" alt="" class="movie-img">
+                    <img src="movies/favorite-movie.png" alt="" class="favorite">
+                    <p class="date"> 04 de janeiro, 2022</p>
+                </div>
+                <h3>Lucy</h3>
+                <div class="movie-info"> 
+                    <div class="classification">
+                        <img src="movies/star-movie.png" alt="">
+                        <p> 7</p>
+                    </div>
+                    <div class="type">
+                        <p> Gênero</p>
+                    </div>
+                </div>
+                <div class="price">
+                        <p>R$ 79,99</p>
+                </div>
+                <input type="submit" value="Adicionar">
+            </div>
+        </div>
+    </div>
+
+    <!--BRANDS-->
+    <section class="brands">
+        <div class="brands__container">
+            <h2>Marcas</h2>
+            <ul class="brands__container-carousel">
+                <li>
+                    <a href="">
+                        <img src="movies/logo2.jpeg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="movies/logo4.jpeg" alt="">
+                    </a>
+                </li>
+                <li class="align">
+                    <a href="">
+                        <img src="movies/logo5.jpeg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="movies/logo6.jpeg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="movies/logo4.jpeg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--interactive banner-->
+    <section class="interactive">
+        <div class="interactive__container">
+            <h2>Lançamentos</h2>
+            <div class="interactive__container-news">
+                <div class="interactive__container-left">
+                    <div class="img-1">
+                        <img src="movies/interactive3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="interactive__container-center">
+                    <div class="img-2">
+                        <img src="movies/interactive1.jpeg" alt="">
+                    </div>
+                    <div class="img-2">
+                        <img src="movies/interactive2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="interactive__container-right">
+                    <div class="img-2">
+                        <img src="movies/interactive4.jpeg" alt="">
+                    </div>
+                    <div class="img-2">
+                        <img src="movies/interactive6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--newsletter-->
+    <section class="newsletter">
+        <div class="newsletter__container">
+            <div class="newsletter__container-left">
+                <h2>Newsletter</h2>
+                <p>Assine e fique por dentro dos novos lançamentos!</p>
+            </div>
+            <div class="newsletter__container-right">
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email"placeholder="Digite seu melhor e-mail">
+                <input class="button__news" type="button" value="Assinar!">
+            </div>
+        </div>
+    </section>
+</section>
+
+<!--FOOTER-->
+<section class="footer">
+    <ul class="footer__links">
+        <li class="footer__links-component">
+            <a href="#">Política de troca</a>
+        </li>
+        <li class="footer__links-component">
+            <a href="#">Fale conosco</a>
+        </li>
+        <li class="footer__links-component">
+            <a href="#">Redes sociais </a>
+        </li>
+        <li class="footer__links-component">
+            <a href="#">Trabalhe conosco</a>
+        </li>
+        <li class="footer__links-component">
+            <a href="#">Perguntas frequentes</a>
+        </li>
+    </ul>
+    <div class="footer__logo">
+        <a href="#">
+            <img src="movies/logonetflix.jpeg" alt="">
+        </a>
+    </div>
+    <ul class="footer__social">
+        <li class="footer__social-item">
+            <a href="#">
+                <svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.7664 2.30043C21.9252 2.66733 21.0355 2.91118 20.1247 3.02448C21.0846 2.45496 21.8023 1.55311 22.1417 0.489825C21.2428 1.0229 20.2593 1.39822 19.2339 1.59952C18.6051 0.928313 17.7891 0.461686 16.8917 0.260256C15.9943 0.0588251 15.0571 0.1319 14.2018 0.469986C13.3465 0.808073 12.6127 1.39555 12.0956 2.1561C11.5784 2.91665 11.302 3.81513 11.3021 4.73482C11.2984 5.08637 11.334 5.43723 11.4082 5.78089C9.58449 5.69097 7.80032 5.21728 6.17222 4.39077C4.54412 3.56426 3.10872 2.40353 1.95983 0.984416C1.3686 1.99298 1.18485 3.18924 1.44612 4.32875C1.70738 5.46826 2.39395 6.46498 3.36551 7.11522C2.63959 7.09564 1.929 6.90187 1.29362 6.55025V6.60039C1.29494 7.6591 1.66089 8.68505 2.3299 9.5056C2.99891 10.3261 3.93014 10.8912 4.9669 11.1057C4.57463 11.2092 4.17034 11.2601 3.76465 11.2571C3.47345 11.2623 3.18254 11.2361 2.89695 11.179C3.19315 12.0891 3.76423 12.8849 4.53156 13.457C5.29888 14.029 6.22469 14.3491 7.18148 14.3731C5.55752 15.6429 3.55464 16.3313 1.4932 16.3283C1.12746 16.3304 0.761956 16.3092 0.398926 16.2647C2.49676 17.6163 4.94141 18.331 7.43697 18.3221C9.15359 18.3336 10.8554 18.004 12.4436 17.3524C14.0318 16.7008 15.4747 15.7402 16.6886 14.5263C17.9024 13.3125 18.863 11.8695 19.5147 10.2814C20.1663 8.69316 20.4959 6.99135 20.4843 5.27473C20.4843 5.07226 20.4776 4.87655 20.468 4.6818C21.3725 4.03437 22.1514 3.22737 22.7664 2.30043Z" fill="white"/>
+                </svg>
+            </a>
+            <li class="footer__social-item">
+                <a href="#">
+                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.0458 11.2365C23.0458 9.02454 22.3899 6.86228 21.161 5.02313C19.9321 3.18397 18.1855 1.75052 16.1419 0.904051C14.0984 0.0575801 11.8497 -0.163895 9.68025 0.267632C7.51081 0.699159 5.51806 1.76431 3.95399 3.32838C2.38992 4.89245 1.32477 6.8852 0.893242 9.05464C0.461715 11.2241 0.68319 13.4727 1.52966 15.5163C2.37613 17.5599 3.80958 19.3065 5.64874 20.5354C7.48789 21.7643 9.65015 22.4202 11.8621 22.4202C11.9276 22.4202 11.9932 22.4202 12.0549 22.4202V13.7133H9.65523V10.9174H12.0549V8.85125C12.0064 8.36297 12.0652 7.86997 12.2273 7.40682C12.3894 6.94367 12.6508 6.52157 12.9932 6.17013C13.3357 5.81868 13.7509 5.54639 14.2097 5.37233C14.6684 5.19828 15.1597 5.12668 15.6491 5.16255C16.3685 5.15914 17.0876 5.19551 17.803 5.2715V7.76566H16.3346C15.1777 7.76566 14.9501 8.31617 14.9501 9.1241V10.9087H17.7239L17.3614 13.7046H14.9473V21.9825C17.2805 21.3129 19.3325 19.9023 20.7935 17.9637C22.2544 16.0252 23.045 13.6639 23.0458 11.2365Z" fill="white"/>
+                    </svg>    
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a href="#">
+                    <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.2617 6.62896C23.2437 5.70169 23.068 4.78425 22.7421 3.91594C22.4543 3.1728 22.0146 2.49786 21.4512 1.93426C20.8877 1.37066 20.2129 0.930798 19.4699 0.642773C18.6011 0.31718 17.6834 0.141463 16.7559 0.123115C15.5594 0.066232 15.1786 0.0527344 12.1426 0.0527344C9.10657 0.0527344 8.72575 0.066232 7.53218 0.118294C6.6049 0.136359 5.68747 0.312087 4.81915 0.637952C4.07102 0.918753 3.39368 1.36044 2.83501 1.9318C2.26781 2.49011 1.82837 3.16473 1.54695 3.9092C1.22092 4.77817 1.04487 5.69621 1.02633 6.62414C0.968479 7.82158 0.956909 8.20144 0.956909 11.2365C0.956909 14.2715 0.968479 14.6552 1.02247 15.8478C1.04171 16.7764 1.21908 17.6948 1.54695 18.5637C1.83481 19.3067 2.27451 19.9815 2.83795 20.545C3.40138 21.1084 4.07616 21.5481 4.81915 21.836C5.68758 22.1614 6.60495 22.3372 7.53218 22.3556C8.72479 22.4086 9.10561 22.4212 12.1416 22.4212C15.1776 22.4212 15.5584 22.4086 16.751 22.3556C17.6783 22.3376 18.5958 22.1619 19.4641 21.836C20.2068 21.5482 20.8812 21.1085 21.4442 20.545C22.0071 19.9815 22.4462 19.3067 22.7334 18.5637C23.0588 17.6953 23.2345 16.7779 23.253 15.8507C23.3051 14.6581 23.3186 14.2773 23.3186 11.2413C23.3186 8.20529 23.3186 7.82447 23.2617 6.63186V6.62896ZM21.2477 15.7611C21.2401 16.4701 21.1096 17.1724 20.862 17.8368C20.6756 18.3185 20.3907 18.756 20.0254 19.1213C19.6602 19.4865 19.2227 19.7715 18.741 19.9579C18.0765 20.2051 17.3742 20.3355 16.6652 20.3435C15.4852 20.3965 15.1313 20.4091 12.1474 20.4091C9.16346 20.4091 8.80481 20.3965 7.62955 20.3435C6.92053 20.336 6.2182 20.2055 5.55381 19.9579C5.06846 19.7795 4.62953 19.4942 4.26961 19.1229C3.89931 18.7622 3.61409 18.3235 3.43469 17.8387C3.1875 17.1742 3.05703 16.472 3.04904 15.763C2.99601 14.5829 2.98348 14.2291 2.98348 11.2451C2.98348 8.26121 2.99601 7.90256 3.04904 6.7273C3.05651 6.01829 3.187 5.31595 3.43469 4.65156C3.61266 4.16484 3.89957 3.72525 4.27347 3.3664C4.6343 2.99697 5.07303 2.71272 5.55767 2.53437C6.22221 2.28726 6.92445 2.15679 7.63341 2.14872C8.81252 2.09762 9.16346 2.08413 12.1522 2.08413C15.141 2.08413 15.4948 2.09762 16.6701 2.14968C17.3791 2.15723 18.0814 2.28772 18.7458 2.53533C19.2312 2.71356 19.6701 2.99894 20.03 3.37025C20.4004 3.7312 20.6857 4.17026 20.8649 4.65542C21.1121 5.31996 21.2425 6.0222 21.2506 6.73116C21.3026 7.91124 21.3161 8.26507 21.3161 11.249C21.3161 14.2329 21.3026 14.5829 21.2506 15.763L21.2477 15.7611Z" fill="white"/>
+                        <path d="M12.1416 5.49243C11.0052 5.49243 9.89421 5.82944 8.94926 6.46083C8.00431 7.09222 7.26782 7.98964 6.83291 9.03961C6.398 10.0896 6.28421 11.2449 6.50592 12.3596C6.72764 13.4742 7.2749 14.4981 8.07851 15.3017C8.88212 16.1053 9.90598 16.6526 11.0206 16.8743C12.1353 17.096 13.2906 16.9822 14.3406 16.5473C15.3906 16.1124 16.288 15.3759 16.9194 14.4309C17.5508 13.486 17.8878 12.375 17.8878 11.2386C17.8875 9.71467 17.282 8.25327 16.2045 7.17572C15.1269 6.09816 13.6655 5.49269 12.1416 5.49243ZM12.1416 14.9649C11.4045 14.9649 10.6838 14.7463 10.0709 14.3367C9.45793 13.9271 8.9802 13.345 8.69809 12.664C8.41598 11.9829 8.34217 11.2335 8.48599 10.5104C8.6298 9.78742 8.98479 9.12329 9.50606 8.60202C10.0273 8.08075 10.6915 7.72576 11.4145 7.58194C12.1375 7.43813 12.8869 7.51194 13.568 7.79405C14.2491 8.07616 14.8312 8.55389 15.2407 9.16684C15.6503 9.77978 15.8689 10.5004 15.8689 11.2376C15.8689 12.2261 15.4762 13.1742 14.7772 13.8732C14.0782 14.5722 13.1302 14.9649 12.1416 14.9649Z" fill="white"/>
+                        <path d="M19.4573 5.26588C19.4571 5.5312 19.3782 5.79051 19.2306 6.01098C19.083 6.23146 18.8733 6.4032 18.6281 6.50447C18.3829 6.60574 18.1131 6.63199 17.8529 6.5799C17.5928 6.52781 17.3539 6.39972 17.1666 6.21184C16.9792 6.02395 16.8518 5.78472 16.8005 5.52442C16.7492 5.26411 16.7762 4.99442 16.8782 4.74948C16.9801 4.50453 17.1525 4.29534 17.3734 4.14837C17.5943 4.0014 17.8538 3.92326 18.1191 3.92383C18.4745 3.9246 18.815 4.06636 19.0659 4.31799C19.3168 4.56962 19.4576 4.91054 19.4573 5.26588Z" fill="white"/>
+                    </svg>         
+                </a>
+            </li>
+            <li class="footer__social-item">
+                <a href="#">
+                    <svg width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.1372 2.85577C22.0094 2.38373 21.7602 1.95337 21.4145 1.60748C21.0688 1.26159 20.6386 1.01222 20.1666 0.884157C18.4167 0.4021 11.4153 0.4021 11.4153 0.4021C11.4153 0.4021 4.4139 0.4021 2.66403 0.862947C2.19192 0.997826 1.7625 1.25204 1.41717 1.60108C1.07184 1.95013 0.822236 2.38224 0.692416 2.85577C0.374811 4.63119 0.22055 6.43197 0.231569 8.23554C0.219937 10.0391 0.374202 11.84 0.692416 13.6153C0.819831 14.0881 1.06891 14.5193 1.41483 14.8659C1.76076 15.2125 2.19146 15.4624 2.66403 15.5908C4.43222 16.0728 11.4153 16.0728 11.4153 16.0728C11.4153 16.0728 18.4167 16.0728 20.1666 15.612C20.6387 15.484 21.0691 15.2346 21.415 14.8888C21.7609 14.5429 22.0102 14.1125 22.1382 13.6404C22.4562 11.8627 22.6104 10.0597 22.599 8.25385C22.6202 6.44351 22.4658 4.63538 22.1382 2.85481L22.1372 2.85577ZM9.18531 11.5887V4.88234L15.0076 8.23554L9.18531 11.5887Z" fill="white"/>
+                    </svg>      
+                </a>
+            </li>
+        </li>
+    </ul>
+    <p>
+        Desenvolvido por Júlio Macedo<br>
+    </p>
+    <p>
+        <a href="">juliocesarmacedo@icloud.com</a> |
+        <a href="">(14) 99755 1925</a>
+    </p>
+</section>
